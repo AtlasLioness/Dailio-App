@@ -1,0 +1,58 @@
+.cover {
+    position: relative;
+    background: url('/images/cover-image.jpg') no-repeat center center/cover;
+    height: 400px; /* Adjust height as needed */
+    color: #fff;
+}
+
+.cover .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cover h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.cover p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.cover .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cover .emotional-text {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
