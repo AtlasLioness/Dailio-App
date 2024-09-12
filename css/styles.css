@@ -1,11 +1,9 @@
 .cover {
     position: relative;
     width: 100%;
-    height: 100vh; /* Full viewport height */
-    background-image: url('../images/cover-image.jpg');
-    background-size: cover; /* Ensure the image covers the entire section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh; /* Adjust if needed */
+    background-color: white; /* White background for the section */
+    text-align: center;
 }
 
 .cover .content {
@@ -13,15 +11,20 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    color: white; /* Ensure text is readable against the background */
+    color: black; /* Adjust text color if needed */
 }
 
 .cover .emotional-text {
     position: absolute;
     bottom: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
-    color: white; /* Ensure text is readable */
+    width: 100%;
+    text-align: center;
+    color: black; /* Adjust text color if needed */
+}
+
+.cover img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 .cover h1 {
